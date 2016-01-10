@@ -19,6 +19,8 @@ class ViewController: UIViewController,UITableViewDataSource {
         
         print("Added new line to first commit")
         
+        print("Added new line to second commit")
+
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         // Do any additional setup after loading the view, typically from a nib.
     }
